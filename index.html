@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>3. Tabla</title>
+
+<style>
+body{
+    background:#001cff;
+    font-family:Times New Roman, serif;
+}
+
+h1{
+    color:#fff;
+    font-size:42px;
+    margin-left:10px;
+    margin-bottom:5px;
+}
+
+hr{
+    border:1px solid gold;
+}
+
+table{
+    margin:15px auto;
+    border-collapse:collapse;
+}
+
+td{
+    border:2px solid gold;
+    text-align:center;
+    vertical-align:middle;
+    color:yellow;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.verde{
+    background:#008000;
+}
+
+.celeste{
+    background:#c7e5ef;
+}
+
+.w1{width:110px;}
+.w2{width:120px;}
+.w3{width:110px;}
+.w4{width:110px;}
+.w5{width:110px;}
+.w6{width:110px;}
+
+.h1{height:45px;}
+.h2{height:45px;}
+.h3{height:45px;}
+.h4{height:45px;}
+.h5{height:45px;}
+</style>
+
+</head>
+<body>
+
+<h1>3.Tabla</h1>
+<hr>
+
+<table>
+
+<tr>
+    <td class="celeste w1" rowspan="4">1</td>
+    <td class="verde h1" colspan="4">2</td>
+    <td class="celeste w6" rowspan="4">3</td>
+</tr>
+
+<tr>
+    <td class="verde h2" colspan="2">4</td>
+    <td class="celeste h2" colspan="2">5</td>
+</tr>
+
+<tr>
+    <td class="verde" rowspan="2">6</td>
+    <td class="celeste" colspan="3">7</td>
+</tr>
+
+<tr>
+    <td class="celeste">9</td>
+    <td class="verde">10</td>
+    <td class="celeste">11</td>
+</tr>
+
+<tr>
+    <td class="verde" rowspan="4">12</td>
+    <td class="celeste" colspan="3">13</td>
+    <td class="verde">14</td>
+    <td class="celeste" rowspan="4">15</td>
+</tr>
+
+<tr>
+    <td class="verde" colspan="3">16</td>
+    <td class="celeste">17</td>
+</tr>
+
+<tr>
+    <td class="verde">18</td>
+    <td class="celeste" colspan="3">19</td>
+</tr>
+
+<tr>
+    <td class="verde" colspan="4">20</td>
+</tr>
+
+</table>
+
+</body>
+</html>
